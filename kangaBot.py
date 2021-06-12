@@ -15,14 +15,14 @@ async def on_raedy():
     print(">> Bot is online <<")
 
 @bot.command()
-async def 圖片(ctx):
+async def 圖(ctx):
     #pic = discord.File(jdata['pic']) 傳送單一圖片
     #await ctx.send(file=pic)
-    random_pic=random.choices(jdata['pic']) #隨機傳送圖片
-    pic = discord.File(random_pic)
-    await ctx.send(file= pic)
-
-
+    #random_pic=random.choice(jdata['pic']) 隨機傳送圖片(主機內)
+    #pic = discord.File(random_pic)
+    #await ctx.send(file= pic)
+    random_pic=random.choice(jdata['url_pic'])
+    await ctx.send(random_pic)
 
 
 @bot.command()
