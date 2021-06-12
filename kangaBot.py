@@ -16,9 +16,9 @@ async def on_raedy():
     print(">> Bot is online <<")
 
 for filename in os.listdir('./cmds'):
-    if filename.endswith('.py'):
-        bot.load_extension(f'cmds.{filename[:-3]}')
+    #if filename.endswith('.py'):
+        #bot.load_extension(f'cmds.{filename[:-3]}')
 
 if __name__ =="__main__":
-    
+
     bot.run(jdata['TOKEN'])
