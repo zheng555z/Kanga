@@ -1,6 +1,6 @@
 import discord
 from discord.ext import commands
-from core.classes import Cog_Extension
+from Kanga.core.classes import Cog_Extension
 
 class Main(Cog_Extension):
    
