@@ -1,4 +1,8 @@
 {
     "TOKEN":"ODQ5ODY3NDUyMjUwNzE4MjM5.YLhavg.S23ArrW4i-AocX8L78Tsx4MXoxw",
-    "pic":["C:\\Users\\Zheng\\Documents\\GitHub\\Kanga\\pic\\2.jpg","C:\\Users\\Zheng\\Documents\\GitHub\\Kanga\\pic\\1.gif"]
+    "pic":["C:\\Users\\Zheng\\Documents\\GitHub\\Kanga\\pic\\2.jpg",
+          "C:\\Users\\Zheng\\Documents\\GitHub\\Kanga\\pic\\1.gif"],
+    "url_pic":["https://pbs.twimg.com/media/E3mWQzqVoAcNgUR?format=jpg&name=large",
+            "https://pbs.twimg.com/media/E3mWQzoVgA4-heH?format=jpg&name=large",
+            "https://pbs.twimg.com/media/E3l6HuEVIAIKEb-?format=jpg&name=900x900"]
 }
